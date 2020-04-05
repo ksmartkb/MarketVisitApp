@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0097a7"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialogNameEt"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialogEmailEt"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialogPasswEt"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialogLoginBtn"
+            android:text="@string/sell"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialogCancelBtn"
+            android:text="@string/history"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialogCancelBtn2"
+            android:text="@string/call"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialogCancelBtn3"
+            android:text="@string/direction"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="10sp"
+
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal">
+
+         <Button
+             style="@style/Base.Widget.AppCompat.Button.Colored"
+
+             android:id="@+id/button"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:padding="5dp"
+             android:text="Button" />
+
+         <Button
+             style="@style/Base.Widget.AppCompat.Button.Colored"
+
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:padding="5dp"
+             android:text="Button" />
+         <Button
+         style="@style/Base.Widget.AppCompat.Button.Colored"
+
+         android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:padding="5dp"
+             android:text="Button" />
+         <Button
+         style="@style/Base.Widget.AppCompat.Button.Colored"
+
+         android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:padding="5dp"
+             android:text="Button" />
+     </LinearLayout>
+ -->
+
+</LinearLayout>

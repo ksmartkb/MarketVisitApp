@@ -1,4 +1,4 @@
-package com.example.android.navigation_drawer
+package com.example.android.market_master
 
 import org.junit.Test
 

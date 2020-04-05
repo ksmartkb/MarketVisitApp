@@ -1,6 +1,8 @@
-# Navigation-Drawer
+# Market Master App
 A kotlin demo app
 
-##Getting started
-This is an app used to demonstrate how to create a navigation drawer in an android app using kotlin. 
-Link to article: https://medium.com/@ezichukwuamarachi/using-the-android-navigation-drawer-in-kotlin-6cf2cdd0e42f
+## Getting started
+
+This is the app used for market visits by Bigtree Brands, they use it to capture products information in the market
+ This app was developed by Kondwani Banda
+ email: Kondwanismart@gmail.com
